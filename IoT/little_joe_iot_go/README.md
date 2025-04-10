@@ -25,3 +25,7 @@ export GOOGLE_APPLICATION_CREDENTIALS="<SOME_PATH>/little-joe-google-api-service
   export LITTLE_JOE_GOOGLE_SHEET_WORKSHEET="Soil Moisture" && \
   ./littlejoe updateSoilMoistureData --debug=true --reading=15.7
 ```
+
+
+The Google sheet is here:
+https://docs.google.com/spreadsheets/d/1wz5gZ2TaHvzxDfvdOJxpuQ0dyAo7iCLEBKRFj87oJAY/edit?gid=0#gid=0
