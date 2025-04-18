@@ -1,0 +1,10 @@
+[Unit]
+Description=Run Little Joe Python Script
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 **path/to/your/little_joe_script.py**
+WorkingDirectory=**path/to/your/little_joe_directory**
+Restart=on-failure
+User=**your_username**
