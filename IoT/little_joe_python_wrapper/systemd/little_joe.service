@@ -8,3 +8,7 @@ ExecStart=/usr/bin/python3 **path/to/your/little_joe_script.py**
 WorkingDirectory=**path/to/your/little_joe_directory**
 Restart=on-failure
 User=**your_username**
+Environment=LITTLE_JOE_GOOGLE_SHEET_ID=1wz5gZ2TaHvzxDfvdOJxpuQ0dyAo7iCLEBKRFj87oJAY
+Environment=LITTLE_JOE_GOOGLE_SHEET_WORKSHEET="Soil Moisture"
+Environment=GOOGLE_APPLICATION_CREDENTIALS=**path/to/json/config**
+Environment=LITTLE_JOE_BINARY_PATH=**path/to/binary**

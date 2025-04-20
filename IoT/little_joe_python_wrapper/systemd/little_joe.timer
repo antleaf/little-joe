@@ -2,8 +2,9 @@
 Description=Run Little Joe Python Script Every Hour
 
 [Timer]
-OnCalendar=hourly
+OnCalendar=*:*:0,15,30,45
 Persistent=true
+Unit=little_joe.service
 
 [Install]
 WantedBy=timers.target
